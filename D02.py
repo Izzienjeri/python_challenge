@@ -21,13 +21,12 @@ elif operation == '3':
     result = num1 * num2
     print(f"{num1} * {num2} = {result}")
 
-elif operation == '4':  # Division
+elif operation == '4':  
     if num2 != 0:
         result = num1 / num2
         print(f"{num1} / {num2} = {result}")
     else:
-        print("Error! Division by zero is not allowed.")
-
+        print("Error! Division by zero isn't allowed.")
 else:
     print("Invalid input! Please select a valid operation.")
 
