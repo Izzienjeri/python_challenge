@@ -5,5 +5,4 @@ def fibonacci(n):
         sequence.append(next_value)
     return sequence
 
-
 print (fibonacci(10))
